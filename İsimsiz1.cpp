@@ -1,6 +1,4 @@
 #include<iostream>
-#include<string.h>
-#include <typeinfo>
 
 using namespace std;
 
@@ -12,7 +10,6 @@ char cvb[]={"abcdefghijklmnoprstuvyz"};
 int cvb3[23];
 int cvb2[8];
 int cvb4[8];
-//cvb[1]=static_cast<int>(sifre[1]);
 
 for(int i=0;i<8;i++){
 	sifre2[i]=static_cast<int>(sifre[i]);
